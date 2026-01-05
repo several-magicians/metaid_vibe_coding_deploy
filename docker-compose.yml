@@ -1,9 +1,10 @@
-version: '1.0'
+version: '1.1'
 
 services:
   vibe-coding-service:
-    image: ghcr.io/several-magicians/metaid_vibe_coding_service:v1.0
+    image: ghcr.io/several-magicians/metaid_vibe_coding_service:v1.1
     container_name: vibe-coding-service
+    platform: linux/amd64
     ports:
       - "7389:3000"
     volumes:
