@@ -1,0 +1,13 @@
+version: '1.0'
+
+services:
+  vibe-coding-service:
+    image: ghcr.io/several-magicians/metaid_vibe_coding_service:v1.0
+    container_name: vibe-coding-service
+    ports:
+      - "7389:3000"
+    volumes:
+      - ./projects:/app/projects
+      - ./logs:/app/logs
+    restart: always
+
