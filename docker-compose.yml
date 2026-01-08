@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   vibe-coding-service:
-    image: ghcr.io/several-magicians/metaid_vibe_coding_service:v1.5
+    image: ghcr.io/several-magicians/metaid_vibe_coding_service:v1.6
     container_name: vibe-coding-service
     platform: linux/amd64
     ports:
